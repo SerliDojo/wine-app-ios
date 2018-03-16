@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		345EEF97205AF36300674A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EEF96205AF36300674A98 /* AppDelegate.swift */; };
+		345EEF99205AF36300674A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EEF98205AF36300674A98 /* ViewController.swift */; };
+		345EEF9C205AF36300674A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345EEF9A205AF36300674A98 /* Main.storyboard */; };
+		345EEF9E205AF36300674A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345EEF9D205AF36300674A98 /* Assets.xcassets */; };
+		345EEFA1205AF36300674A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345EEF9F205AF36300674A98 /* LaunchScreen.storyboard */; };
+		345EEFAC205AF36300674A98 /* WineSerliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EEFAB205AF36300674A98 /* WineSerliTests.swift */; };
+		345EEFB7205AF36300674A98 /* WineSerliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EEFB6205AF36300674A98 /* WineSerliUITests.swift */; };
+		345EEFC8205AF5D900674A98 /* RegionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EEFC7205AF5D900674A98 /* RegionTableViewController.swift */; };
+		345EEFCB205B080600674A98 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EEFCA205B080600674A98 /* Region.swift */; };
+		345EEFCD205B0CCD00674A98 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EEFCC205B0CCD00674A98 /* Wine.swift */; };
+		345EEFCF205B106A00674A98 /* WineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EEFCE205B106A00674A98 /* WineTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345EEFA8205AF36300674A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345EEF8B205AF36300674A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345EEF92205AF36300674A98;
+			remoteInfo = WineSerli;
+		};
+		345EEFB3205AF36300674A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345EEF8B205AF36300674A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345EEF92205AF36300674A98;
+			remoteInfo = WineSerli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		345EEF93205AF36300674A98 /* WineSerli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineSerli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		345EEF96205AF36300674A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		345EEF98205AF36300674A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		345EEF9B205AF36300674A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		345EEF9D205AF36300674A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		345EEFA0205AF36300674A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		345EEFA2205AF36300674A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345EEFA7205AF36300674A98 /* WineSerliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineSerliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		345EEFAB205AF36300674A98 /* WineSerliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineSerliTests.swift; sourceTree = "<group>"; };
+		345EEFAD205AF36300674A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345EEFB2205AF36300674A98 /* WineSerliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineSerliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		345EEFB6205AF36300674A98 /* WineSerliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineSerliUITests.swift; sourceTree = "<group>"; };
+		345EEFB8205AF36300674A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345EEFC7205AF5D900674A98 /* RegionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewController.swift; sourceTree = "<group>"; };
+		345EEFCA205B080600674A98 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		345EEFCC205B0CCD00674A98 /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		345EEFCE205B106A00674A98 /* WineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345EEF90205AF36300674A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EEFA4205AF36300674A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EEFAF205AF36300674A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345EEF8A205AF36300674A98 = {
+			isa = PBXGroup;
+			children = (
+				345EEF95205AF36300674A98 /* WineSerli */,
+				345EEFAA205AF36300674A98 /* WineSerliTests */,
+				345EEFB5205AF36300674A98 /* WineSerliUITests */,
+				345EEF94205AF36300674A98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		345EEF94205AF36300674A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				345EEF93205AF36300674A98 /* WineSerli.app */,
+				345EEFA7205AF36300674A98 /* WineSerliTests.xctest */,
+				345EEFB2205AF36300674A98 /* WineSerliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		345EEF95205AF36300674A98 /* WineSerli */ = {
+			isa = PBXGroup;
+			children = (
+				345EEFC9205B07EA00674A98 /* Models */,
+				345EEFC6205AF5B900674A98 /* Controllers */,
+				345EEF96205AF36300674A98 /* AppDelegate.swift */,
+				345EEF98205AF36300674A98 /* ViewController.swift */,
+				345EEF9A205AF36300674A98 /* Main.storyboard */,
+				345EEF9D205AF36300674A98 /* Assets.xcassets */,
+				345EEF9F205AF36300674A98 /* LaunchScreen.storyboard */,
+				345EEFA2205AF36300674A98 /* Info.plist */,
+			);
+			path = WineSerli;
+			sourceTree = "<group>";
+		};
+		345EEFAA205AF36300674A98 /* WineSerliTests */ = {
+			isa = PBXGroup;
+			children = (
+				345EEFAB205AF36300674A98 /* WineSerliTests.swift */,
+				345EEFAD205AF36300674A98 /* Info.plist */,
+			);
+			path = WineSerliTests;
+			sourceTree = "<group>";
+		};
+		345EEFB5205AF36300674A98 /* WineSerliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				345EEFB6205AF36300674A98 /* WineSerliUITests.swift */,
+				345EEFB8205AF36300674A98 /* Info.plist */,
+			);
+			path = WineSerliUITests;
+			sourceTree = "<group>";
+		};
+		345EEFC6205AF5B900674A98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				345EEFC7205AF5D900674A98 /* RegionTableViewController.swift */,
+				345EEFCE205B106A00674A98 /* WineTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		345EEFC9205B07EA00674A98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				345EEFCA205B080600674A98 /* Region.swift */,
+				345EEFCC205B0CCD00674A98 /* Wine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		345EEF92205AF36300674A98 /* WineSerli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345EEFBB205AF36300674A98 /* Build configuration list for PBXNativeTarget "WineSerli" */;
+			buildPhases = (
+				345EEF8F205AF36300674A98 /* Sources */,
+				345EEF90205AF36300674A98 /* Frameworks */,
+				345EEF91205AF36300674A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WineSerli;
+			productName = WineSerli;
+			productReference = 345EEF93205AF36300674A98 /* WineSerli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345EEFA6205AF36300674A98 /* WineSerliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345EEFBE205AF36300674A98 /* Build configuration list for PBXNativeTarget "WineSerliTests" */;
+			buildPhases = (
+				345EEFA3205AF36300674A98 /* Sources */,
+				345EEFA4205AF36300674A98 /* Frameworks */,
+				345EEFA5205AF36300674A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345EEFA9205AF36300674A98 /* PBXTargetDependency */,
+			);
+			name = WineSerliTests;
+			productName = WineSerliTests;
+			productReference = 345EEFA7205AF36300674A98 /* WineSerliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		345EEFB1205AF36300674A98 /* WineSerliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345EEFC1205AF36300674A98 /* Build configuration list for PBXNativeTarget "WineSerliUITests" */;
+			buildPhases = (
+				345EEFAE205AF36300674A98 /* Sources */,
+				345EEFAF205AF36300674A98 /* Frameworks */,
+				345EEFB0205AF36300674A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345EEFB4205AF36300674A98 /* PBXTargetDependency */,
+			);
+			name = WineSerliUITests;
+			productName = WineSerliUITests;
+			productReference = 345EEFB2205AF36300674A98 /* WineSerliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		345EEF8B205AF36300674A98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "JOFFRE Jean-baptiste";
+				TargetAttributes = {
+					345EEF92205AF36300674A98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					345EEFA6205AF36300674A98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 345EEF92205AF36300674A98;
+					};
+					345EEFB1205AF36300674A98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 345EEF92205AF36300674A98;
+					};
+				};
+			};
+			buildConfigurationList = 345EEF8E205AF36300674A98 /* Build configuration list for PBXProject "WineSerli" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 345EEF8A205AF36300674A98;
+			productRefGroup = 345EEF94205AF36300674A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				345EEF92205AF36300674A98 /* WineSerli */,
+				345EEFA6205AF36300674A98 /* WineSerliTests */,
+				345EEFB1205AF36300674A98 /* WineSerliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		345EEF91205AF36300674A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345EEFA1205AF36300674A98 /* LaunchScreen.storyboard in Resources */,
+				345EEF9E205AF36300674A98 /* Assets.xcassets in Resources */,
+				345EEF9C205AF36300674A98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EEFA5205AF36300674A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EEFB0205AF36300674A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		345EEF8F205AF36300674A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345EEFCF205B106A00674A98 /* WineTableViewController.swift in Sources */,
+				345EEFC8205AF5D900674A98 /* RegionTableViewController.swift in Sources */,
+				345EEFCD205B0CCD00674A98 /* Wine.swift in Sources */,
+				345EEF99205AF36300674A98 /* ViewController.swift in Sources */,
+				345EEF97205AF36300674A98 /* AppDelegate.swift in Sources */,
+				345EEFCB205B080600674A98 /* Region.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EEFA3205AF36300674A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345EEFAC205AF36300674A98 /* WineSerliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345EEFAE205AF36300674A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345EEFB7205AF36300674A98 /* WineSerliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345EEFA9205AF36300674A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345EEF92205AF36300674A98 /* WineSerli */;
+			targetProxy = 345EEFA8205AF36300674A98 /* PBXContainerItemProxy */;
+		};
+		345EEFB4205AF36300674A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345EEF92205AF36300674A98 /* WineSerli */;
+			targetProxy = 345EEFB3205AF36300674A98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		345EEF9A205AF36300674A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345EEF9B205AF36300674A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		345EEF9F205AF36300674A98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345EEFA0205AF36300674A98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		345EEFB9205AF36300674A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		345EEFBA205AF36300674A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345EEFBC205AF36300674A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = WineSerli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serli.example.WineSerli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		345EEFBD205AF36300674A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = WineSerli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serli.example.WineSerli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		345EEFBF205AF36300674A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = WineSerliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serli.example.WineSerliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WineSerli.app/WineSerli";
+			};
+			name = Debug;
+		};
+		345EEFC0205AF36300674A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = WineSerliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serli.example.WineSerliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WineSerli.app/WineSerli";
+			};
+			name = Release;
+		};
+		345EEFC2205AF36300674A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = WineSerliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serli.example.WineSerliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WineSerli;
+			};
+			name = Debug;
+		};
+		345EEFC3205AF36300674A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZEK96CS5R;
+				INFOPLIST_FILE = WineSerliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serli.example.WineSerliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WineSerli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		345EEF8E205AF36300674A98 /* Build configuration list for PBXProject "WineSerli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345EEFB9205AF36300674A98 /* Debug */,
+				345EEFBA205AF36300674A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345EEFBB205AF36300674A98 /* Build configuration list for PBXNativeTarget "WineSerli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345EEFBC205AF36300674A98 /* Debug */,
+				345EEFBD205AF36300674A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345EEFBE205AF36300674A98 /* Build configuration list for PBXNativeTarget "WineSerliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345EEFBF205AF36300674A98 /* Debug */,
+				345EEFC0205AF36300674A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345EEFC1205AF36300674A98 /* Build configuration list for PBXNativeTarget "WineSerliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345EEFC2205AF36300674A98 /* Debug */,
+				345EEFC3205AF36300674A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 345EEF8B205AF36300674A98 /* Project object */;
+}
